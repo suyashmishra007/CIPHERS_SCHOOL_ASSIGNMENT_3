@@ -1,0 +1,68 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 15px 30px;
+    font-size: 18px;
+    background-color: grey;
+}
+.container{
+    top: 20%;
+    left: 33%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    padding: 5px 20px 15px 20px;
+    margin-bottom: 100px;
+    margin-left: 35%;
+   
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.main_heading{
+    text-align: center;
+    color: white;
+}
+
+input[type="Sign"],
+input[type="Guest"]{
+    font-weight: bold   ;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding:12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="Sign"]:hover,
+input[type="Guest"]:hover{
+    background-color: rgb(54, 55, 55);
+}
+
+#new{
+    color: rgb(188, 186, 186);
+    padding-left:90px ;
+}
+
+#signup{
+    color: white;
+}
+
+.main{
+    align-items: center;
+    padding-left: 15px; 
+    /* margin: 5px; */
+    width: 85%;
+}
